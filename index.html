@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+                body {  
+            background-color: #f0f0f0;  
+            font-family: Arial, sans-serif;  
+        }  
+        header, nav, footer {  
+            background-color: #333;  
+            color: white;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        nav a {  
+            color: white;  
+            margin: 15px;  
+            text-decoration: none;  
+        }  
+        .container {  
+            padding: 20px;  
+            text-align: center; 
+            max-width: 100%;
+            margin:0 ; 
+        }  
+        .heritage-list {  
+            display: grid;  
+            grid-template-columns: repeat(3, 1fr);   
+            gap: 10px;   
+            padding: 20px; 
+        }  
+        .heritage-list img {  
+            width: 600px;      
+            height: 200px;     
+            object-fit: cover; 
+            background-color: grey;  
+        }  
+        p {
+    font-family: sans-serif;
+    font-size: 16px;
+    }
+
+    @media screen and (min-width: 640px) {
+        p {
+            font-size: 21px;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OUAGADOUGOU</h1>
+        <img src="logo.jpg"  width="800" height="575" alt="Logo de la Ville">
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Patrimoine.html">Patrimoine</a>
+        <a href="reservation.html">Réservation d'hôtel</a>
+        <a href="Galerie.html">Galerie</a>
+    </nav>
+    <div class="container">
+        <!-- Page d'accueil -->
+        <section id="accueil">
+            <h2>Bienvenue à OUAGADOUGOU</h2>
+            <p><i><b>
+            Ouagadougou, souvent appelée Ouaga, est la capitale animée et la plus grande ville du Burkina Faso, avec une population estimée à plus de 2,8 millions d'habitants en 2022. Située au cœur du pays, elle est le centre culturel, économique et administratif du Burkina Faso. La ville est soumise à un climat tropical de savane avec deux saisons distinctes : la saison sèche et la saison des pluies. Les habitants de Ouagadougou, appelés Ouagalais, sont principalement des Mossis.Ouaga offre une variété d'attractions pour les visiteurs, allant des sites historiques aux festivals culturels, faisant d'elle une destination incontournable pour ceux qui souhaitent découvrir le Burkina Faso.</i></b> </p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Ouagadougou . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
